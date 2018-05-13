@@ -1,0 +1,112 @@
+body {
+/*position: relative;
+   display: block;*/
+      margin:0; padding:0;
+   width: 1600px;
+
+}
+ 
+h2{
+	font-size: 1.5em;
+	text-decoration:  none!important;
+	     padding: 0;
+     margin: 0;
+     Margin-top:0;
+     Margin-bottom:3px;
+     -webkit-margin-before:0!important;
+}
+p{
+	     padding: 0;
+     margin: 0;
+     Margin-top:0;
+     Margin-bottom:7px;
+     -webkit-margin-before:0!important;
+}
+.container{
+ padding-right: 3px;
+}
+.feed-title-image{
+   float: right;
+   text-align:right;
+   width: 221px;
+}
+.feed-item-title{
+   width: 450px;
+}
+#slideshow{
+   float: left;
+     width: 1000px;
+     height: 600px;
+}
+
+#date{
+	font-size: 2em;
+	color: red;
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+#forecast_embed{
+	    position: absolute;
+    bottom: 0;
+    left:0;
+    margin: 0!important;
+}
+.fe_container{
+margin: 0 !important;
+}
+#slider {
+  position: absolute;
+  top: 0; left: 0;
+	width:auto;
+	max-width:1000px;
+	max-height:600px;
+	height:auto;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+.newspaper {
+	
+	    float:right;
+    width:594px;
+    
+    
+     max-width:600px;
+	max-height: 855px;
+ margin: 0;
+
+ 
+ /* Starting position  position: absolute; text-align: center;* line-height: 50px;/ overflow: hidden;
+ -moz-transform:translateY(-100%);
+ -webkit-transform:translateY(-100%);	
+ transform:translateY(-100%);
+ /* Apply animation to this element */	
+ -moz-animation: newspaper 180s linear infinite;
+ -webkit-animation: newspaper 180s linear infinite;
+ animation: newspaper 180s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes newspaper {
+ 0%   { -moz-transform: translateY(-100%); }
+ 100% { -moz-transform: translateY(100%); }
+}
+@-webkit-keyframes newspaper {
+ 0%   { -webkit-transform: translateY(-100%); }
+ 100% { -webkit-transform: translateY(100%); }
+}
+@keyframes newspaper {
+ 0%   { 
+ -moz-transform: translateY(-100%); /* Firefox bug fix */
+ -webkit-transform: translateY(-100%); /* Firefox bug fix */
+ transform: translateY(-100%); 		
+ }
+ 100% { 
+ -moz-transform: translateY(100%); /* Firefox bug fix */
+ -webkit-transform: translateY(100%); /* Firefox bug fix */
+ transform: translateY(100%); 
+ }
